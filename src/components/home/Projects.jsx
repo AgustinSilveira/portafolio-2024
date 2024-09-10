@@ -128,7 +128,7 @@ const Projects = () => {
         </div>
 
         <div >
-          <p className='tittle-projects'>Chat en tiempo real</p>
+          <p className='tittle-projects'>Animales perdidos</p>
 
           <a href='https://donde-estas.vercel.app' target='_blank'>
 
