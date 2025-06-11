@@ -12,7 +12,6 @@ const Sidenav = () => {
         console.log('state changed')
     }
     const downloadCV = () => {
-<<<<<<< HEAD
     const link = document.createElement('a');
     link.href = '/Agustin-Silveira-DesarrolladorWeb.pdf';
     link.download = 'Agustin-Silveira-DesarrolladorWeb.pdf';
@@ -20,13 +19,6 @@ const Sidenav = () => {
     link.click();
     document.body.removeChild(link);
 };
-=======
-        const downloadLink = document.createElement("a");
-        downloadLink.href = "https://drive.google.com/file/d/1AhkffDAn5tFm-Vc1ODwyf6eJ2tdlQCgg/view?usp=sharing";
-        downloadLink.download = "MiCV.pdf";
-        downloadLink.click();
-    };
->>>>>>> d00288b6d7eb5f7763a8540f97861f7b2e06cad1
     return (
         <div>
             <AiOutlineMenu onClick={handleNav} size={27} className="fixed top-4 right-4 z-[99] md:hidden" />
