@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
@@ -8,44 +7,15 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "~components/*": [
-        "src/components/*"
-      ],
-      "~img/*": [
-        "src/img/*"
-      ],
-      "~/*": [
-        "src/*"
-      ]
+      "~components/*": ["src/components/*"],
+      "~img/*": ["src/img/*"],
+      "~/*": ["src/*"]
     },
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src",
-    "**/*.js",
-    "**/*.jsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
-=======
-    "compilerOptions": {
-        "baseUrl": ".",
-        "paths": {
-            "~components/*": [
-                "src/components/*"
-            ],
-            "~img/*": [
-                "src/img/*"
-            ],
-            "~/*": [
-                "src/*"
-            ]
-        }
-    }
->>>>>>> d00288b6d7eb5f7763a8540f97861f7b2e06cad1
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
