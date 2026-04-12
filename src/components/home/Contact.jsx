@@ -12,8 +12,12 @@ const Contact = () => {
                     </div>
                     <div className="flex flex-col">
                         <label className="text-sm py-1">Numero telefónico</label>
-                        <input className="border-2 rounded-lg p-1 flex border-gray-300" type="text" name="phone" />
-                    </div>
+             
+                        <input className="border-2 rounded-lg p-1 flex border-gray-300" type="text" />
+
+                        <input className="border-2 rounded-lg p-1 flex border-gray-300" type="number" name="phone" />
+
+     </div>
                 </div>
                 <div className="flex flex-col py-1">
                     <label className="text-sm py-1">Correo electrónico</label>

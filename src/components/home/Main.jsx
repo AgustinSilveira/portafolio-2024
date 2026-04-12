@@ -15,7 +15,9 @@ const Main = () => {
                 <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
                 <TypeAnimation
                         sequence={[                   
-                            'Desarrollador frontend',
+
+                            'Desarrollador de software',
+
                             100, 
                         ]}
                         wrapper="span"
@@ -28,20 +30,28 @@ const Main = () => {
                     <TypeAnimation
                         sequence={[                   
                             'Utilizo tecnologías como HTML',
-                            400, 
+
+                            100, 
                             'Utilizo tecnologías como CSS',
-                            400,
-                            'Utilizo tecnologías como JavaScript',
-                            600,
+                            100,
                             'Utilizo tecnologías como Bootstrap',
-                            400,
-                            'Utilizo tecnologías como TypeScript',
-                            600,
+                            100,
+                             'Utilizo tecnologías como TypeScript',
+                            100,
+                            'Utilizo tecnologías como JavaScript',
+                            100,
+                            
+                           
                             'Utilizo tecnologías como Angular',
-                            600
+                            300,
+                            'Utilizo tecnologías como React',
+                            300,
+                            'Utilizo tecnologías como C#',
+                            1000
                         ]}
                         wrapper="span"
-                        speed={50}
+                        speed={60}
+
                         style={{ fontSize: '1em', paddingLeft: '5px' }}
                         repeat={Infinity}
                     />

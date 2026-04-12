@@ -13,8 +13,10 @@ const Sidenav = () => {
     }
     const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/Agustin-Silveira-DesarrolladorWeb.pdf';
-    link.download = 'Agustin-Silveira-DesarrolladorWeb.pdf';
+
+    link.href = '/AgustinSilveira_C.V.pdf';
+    link.download = 'AgustinSilveira_C.V.pdf';
+
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
