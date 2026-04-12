@@ -14,8 +14,8 @@ const Sidenav = () => {
     const downloadCV = () => {
     const link = document.createElement('a');
 
-    link.href = '/AgustinSilveira_C.V.pdf';
-    link.download = 'AgustinSilveira_C.V.pdf';
+    link.href = '/AgustinSilveira-CV.pdf';
+    link.download = 'AgustinSilveira-CV.pdf';
 
     document.body.appendChild(link);
     link.click();
