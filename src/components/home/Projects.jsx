@@ -67,7 +67,7 @@ const Projects = () => {
   return (
     <div id="projects" className="max-w-[1240px] m-auto md:pl-20 p-4 py-16 transition-all duration-300">
       <h1 className="text-4xl md:text-5xl font-extrabold text-center text-[#001b5e] tracking-tight mb-4">
-        Portafolio de Proyectos
+        Proyectos
       </h1>
       <p id='info-project' className="text-center text-gray-600 max-w-[800px] m-auto py-4 text-base md:text-lg leading-relaxed">
         Estos son solo algunos ejemplos de mi trabajo. Cada proyecto refleja mi compromiso
